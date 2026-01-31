@@ -1,9 +1,20 @@
 {
-  "name": "BLE PWA",
-  "short_name": "BLE-PWA",
-  "start_url": "./index.html",
+  "name": "e-Scooter PWA",
+  "short_name": "escooterpwa",
+  "description": "a PWA for e-Scooter",
+  "start_url": "/",
+  "id": "/",
+  "scope": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
+  "background_color": "#000000",
   "theme_color": "#000000",
-  "icons": []
+  "orientation": "any",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/escooterpwa.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
 }
